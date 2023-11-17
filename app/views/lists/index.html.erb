@@ -9,7 +9,7 @@
       <p class="banner-subtitle">All movies avaiable right now!</p>
       <div class="btn-infos">
 <!--         <p class="btn-add">Add to list</p> -->
-        <p class="btn-add"><%= link_to "Add movie", new_movie_path(@movie) %></p>
+        <%# <p class="btn-add"><%= link_to "Add movie", new_movie_path(@movie) %>
         <p class="btn-more-info"><%= link_to "Add list", new_list_path(@bookmark) %></p>
       </div>
     </div>
@@ -30,8 +30,7 @@
       <div class="list-box">
         <div class="row">
           <div class="col-lg-6">
-<!--
-            <img class="img-list" src="<%= list.cover %>"> -->
+
           </div>
           <div class="col-lg-6">
             <h3 class="list-title"><%= list.name %> List</h3>
