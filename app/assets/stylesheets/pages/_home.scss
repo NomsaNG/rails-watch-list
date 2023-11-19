@@ -1,1 +1,84 @@
 // Specific CSS for your home-page
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.banner-container {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner-nav-bar {
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+    i {
+      margin-right: 5px;
+    }
+
+    .logo-title {
+      font-weight: bold;
+    }
+  }
+}
+
+.banner-info {
+  background-color: #FF0079;
+  padding: 15px;
+  margin-top: 10px;
+
+  .banner-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .banner-subtitle {
+    font-size: 16px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+  }
+
+  .btn-infos {
+    display: flex;
+    justify-content: center;
+
+    .btn-more-info {
+      background-color: black;
+      color: #fff;
+      padding: 8px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-left: 10px;
+
+
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+}
+
+.movie-category {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+
+  .category-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
